@@ -13,13 +13,14 @@ initializer_class_hash = "0xbeef"
 
 [tool.dojo.env]
 # rpc_url = "http://localhost:5050/"
-# account_address = "0x517ececd29116499f4a1b64b094da79ba08dfd54a3edaa316134c41f8160973"
-# private_key = "0x1800000000300000180000000000030000000000003006001800006600"
+account_address = "0x517ececd29116499f4a1b64b094da79ba08dfd54a3edaa316134c41f8160973"
+private_key = "0x1800000000300000180000000000030000000000003006001800006600"
+world_address = "0x691f741c8fd33d557daced16f586c44f3f64633f4a227485b8cd0a8718d9bd4"
 
 rpc_url = "https://api.cartridge.gg/x/cubzh/katana"
-account_address = "0x6aef2183e81f4a222cb30e574b2f673702b347e4526d27971e5318de601aece"
-private_key = "0x1cfd34dcdccd0d2053adbaa4db6e662d179c2e3a57a40a05876283b67b0f8ac"
-world_address = "0x6288bc9db1cf82840d9910c02d1c73ed773801908d17f2d307d130b69afac21"
+#account_address = "0x6aef2183e81f4a222cb30e574b2f673702b347e4526d27971e5318de601aece"
+#private_key = "0x1cfd34dcdccd0d2053adbaa4db6e662d179c2e3a57a40a05876283b67b0f8ac"
+#world_address = "0x691f741c8fd33d557daced16f586c44f3f64633f4a227485b8cd0a8718d9bd4"
 
 
 [dependencies]
