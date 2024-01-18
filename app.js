@@ -214,7 +214,7 @@ let currentId = 0
 app.get('/id', (req, res) => {
     const id = currentId
     currentId++
-    res.send({ id: id })
+    res.send({ id: id, burnerAddress: ACCOUNTS[id].account })
 })
 
 // Basic route
